@@ -51,3 +51,7 @@ case month_number
     "Sep"
   end
 end
+
+def cube(side_length)
+  return side_length * side_length
+end
