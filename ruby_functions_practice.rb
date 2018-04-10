@@ -57,5 +57,5 @@ def cube(side_length)
 end
 
 def radius_to_volume_sphere(radius)
-  return (4 / 3) * Math.PI * cube(radius)
+  return (4 / 3) * Math::PI * cube(radius)
 end
