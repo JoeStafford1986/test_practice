@@ -53,9 +53,11 @@ case month_number
 end
 
 def cube(side_length)
-  return side_length * side_length
+  return side_length * side_length * side_length
 end
 
 def radius_to_volume_sphere(radius)
-  return (4 / 3) * Math::PI * cube(radius)
+
+  radius_cubed = radius * radius * radius
+  return ((4.0 / 3) * 3.14 * radius_cubed).round(2)
 end
