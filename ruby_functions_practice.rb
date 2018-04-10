@@ -57,7 +57,10 @@ def cube(side_length)
 end
 
 def radius_to_volume_sphere(radius)
-
   radius_cubed = radius * radius * radius
   return ((4.0 / 3) * 3.14 * radius_cubed).round(2)
+end
+
+def fahrenheit_to_celsius(fahrenheit)
+  return((fahrenheit - 32) * 5 ) / 9
 end
