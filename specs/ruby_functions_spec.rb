@@ -33,7 +33,7 @@ class Functions_Practice < MiniTest::Test
     length_of_string = length_of_string( test_string )
     assert_equal( 21, length_of_string )
   end
-  #
+
   def test_join_string()
     string_1 = "Mary had a little lamb, "
     string_2 = "its fleece was white as snow"
@@ -54,7 +54,7 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "March", third_month_string )
     assert_equal( "September", ninth_month_string )
   end
-  #
+
   def test_substring()
     first_month_string = number_to_short_month_name( 1 )
     third_month_string = number_to_short_month_name( 3 )
@@ -63,10 +63,10 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Mar", third_month_string )
     assert_equal( "Sep", ninth_month_string )
   end
-  #
-  #
-  #
-  # #Further
+
+
+
+  #Further
   #
   # #Given the length of a side of a cube calculate the volume
   # def test_volume_of_cube()

@@ -18,12 +18,12 @@ def divide(num_1, num_2)
   return num_1 / num_2
 end
 
-def length_of_string(my_param)
-  return my_param.length()
+def length_of_string(str)
+  return str.length()
 end
 
-def join_string(pan_1, pan_2)
-  return pan_1 + pan_2
+def join_string(str_1, str_2)
+  return str_1 + str_2
 end
 
 def add_string_as_number(str_1, str_2)
@@ -33,21 +33,21 @@ end
 def number_to_full_month_name(month_number)
 case month_number
   when 1
-  return "January"
+    "January"
   when 3
-  return   "March"
+    "March"
   when 9
-  return "September"
+    "September"
   end
 end
 
 def number_to_short_month_name(month_number)
 case month_number
   when 1
-  return "Jan"
+    "Jan"
   when 3
-  return   "Mar"
+    "Mar"
   when 9
-  return "Sep"
+    "Sep"
   end
 end
